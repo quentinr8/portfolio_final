@@ -1,0 +1,517 @@
+@font-face {
+    font-family: "Made-Soulmaze";
+    src: url("../fonts/MADE_SOULMAZE/MADE_Soulmaze.otf"); format("opentype");
+}
+
+@font-face {
+    font-family: "Made-Soulmaze Italic";
+    src: url("../fonts/MADE_SOULMAZE/MADE_Soulmaze_Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Made-Soulmaze Outline";
+    src: url("../fonts/MADE_SOULMAZE/MADE_Soulmaze_Outline.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Champagne & Limousines";
+    src: url("../fonts/CHAMPAGNE_LIMOUSINES/Champagne_Limousines.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Champagne & Limousines Bold";
+    src: url("../fonts/CHAMPAGNE_LIMOUSINES/Champagne_Limousines_Bold.ttf") format("truetype");
+}
+
+html, body {
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0;
+    overflow: hidden;
+}
+.sidebar2{
+    display: none;
+}
+
+
+    .navbar {
+        width: 100%;
+        height: 8%;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        padding-left: 5%;
+        align-items: center;
+        border-bottom: 1px solid black;
+    }
+
+    .navbar-link {
+        color: #000000;
+        margin-left: 4%;
+        margin-right: 4%;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-family: "Champagne & Limousines", serif;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .sidebar {
+        float: left;
+        height: 100%;
+        width: 4%;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid black;
+    }
+
+    .social-btn {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background: none;
+        border: none;
+        color: #000000;
+        font-size: 2rem;
+    }
+
+    .container-right {
+        float: right;
+        height: 100%;
+        width: 95%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .body-container {
+        width: 100%;
+        height: 92%;
+        /*background: red;*/
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .coder-name {
+        width: 80%;
+        margin-left: 15%;
+        position: relative;
+        z-index: 4;
+    }
+
+    .coder-name-title {
+        font-family: "Made-Soulmaze", serif;
+        font-size: 3.5rem;
+    }
+
+    .coder-sumup {
+        height: 40%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -6%;
+        z-index: 3;
+    }
+
+    .coder-sumup-picture {
+        height: 100%;
+    }
+
+    .profile-picture {
+        height: 100%;
+    }
+
+    .subtitle-qr {
+        font-family: "Made-Soulmaze Outline", serif;
+        margin-top: 0;
+    }
+
+    .coder-space {
+        width: 50%;
+    }
+
+    .coder-sumup-description {
+        border: 1px solid black;
+        width: 20rem;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .text-justify {
+        text-align: justify;
+        padding: 5%;
+        font-family: "Champagne & Limousines Bold", serif;
+    }
+
+    .work-container {
+        width: 100%;
+        /*background: purple;*/
+        margin-top: 5%;
+    }
+
+    .category-bar {
+        width: 100%;
+        height: 5%;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        /*background: yellow;*/
+    }
+
+    .navbar-button {
+        color: #000000;
+        margin-left: 4%;
+        margin-right: 4%;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-family: "Champagne & Limousines Bold", serif;
+        border: none;
+        background: none;
+    }
+
+    .navbar-button:hover {
+        background: yellow;
+    }
+
+    .navbar-button:focus {
+        border: none;
+        outline: none;
+    }
+
+    .category {
+        width: 100%;
+        /*background: red;*/
+        position: relative;
+    }
+
+    .category-div {
+        width: 100%;
+    }
+
+    .covers-row {
+        display: flex !important;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    #container-covers {
+        width: 100%;
+    }
+
+    .cover {
+        /*width: 33%;*/
+        height: 20rem;
+        margin: 1%;
+        transition: height 1s;
+        /*flex: 1 0 0%;*/
+    }
+
+    .cover:hover {
+        height: 21rem;
+        transition: height 1s;
+    }
+
+    .cover-img {
+        height: inherit;
+    }
+
+body > div > div.container-right > div > div.coder-sumup > div.coder-sumup-description {
+    border-left: none;
+    border-right: none;
+}
+@media screen and (min-width: 1000px) {
+    .navbar {
+        width: 100%;
+        height: 8%;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        padding-left: 5%;
+        align-items: center;
+        border-bottom: 1px solid black;
+    }
+
+    .navbar-link {
+        color: #000000;
+        margin-left: 4%;
+        margin-right: 4%;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-family: "Champagne & Limousines", serif;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .sidebar {
+        float: left;
+        height: 100%;
+        width: 4%;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid black;
+    }
+
+    .social-btn {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background: none;
+        border: none;
+        color: #000000;
+        font-size: 2rem;
+    }
+
+    .container-right {
+        float: right;
+        height: 100%;
+        width: 95%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .body-container {
+        width: 100%;
+        height: 92%;
+        /*background: red;*/
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .coder-name {
+        width: 80%;
+        margin-left: 15%;
+        position: relative;
+        z-index: 4;
+    }
+
+    .coder-name-title {
+        font-family: "Made-Soulmaze", serif;
+        font-size: 3.5rem;
+    }
+
+    .coder-sumup {
+        height: 40%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -6%;
+        z-index: 3;
+    }
+
+    .coder-sumup-picture {
+        height: 100%;
+    }
+
+    .profile-picture {
+        height: 100%;
+    }
+
+    .subtitle-qr {
+        font-family: "Made-Soulmaze Outline", serif;
+        margin-top: 0;
+    }
+
+    .coder-space {
+        width: 50%;
+    }
+
+    .coder-sumup-description {
+        border: 1px solid black;
+        width: 20rem;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .text-justify {
+        text-align: justify;
+        padding: 5%;
+        font-family: "Champagne & Limousines Bold", serif;
+    }
+
+    .work-container {
+        width: 100%;
+        /*background: purple;*/
+        margin-top: 5%;
+    }
+
+    .category-bar {
+        width: 100%;
+        height: 5%;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        /*background: yellow;*/
+    }
+
+    .navbar-button {
+        color: #000000;
+        margin-left: 4%;
+        margin-right: 4%;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-family: "Champagne & Limousines Bold", serif;
+        border: none;
+        background: none;
+    }
+
+    .navbar-button:hover {
+        background: yellow;
+    }
+
+    .navbar-button:focus {
+        border: none;
+        outline: none;
+    }
+
+    .category {
+        width: 100%;
+        /*background: red;*/
+        position: relative;
+    }
+
+    .category-div {
+        width: 100%;
+    }
+
+    .covers-row {
+        display: flex !important;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    #container-covers {
+        width: 100%;
+    }
+
+    .cover {
+        /*width: 33%;*/
+        height: 20rem;
+        margin: 1%;
+        transition: height 1s;
+        /*flex: 1 0 0%;*/
+    }
+
+    .cover:hover {
+        height: 21rem;
+        transition: height 1s;
+    }
+
+    .cover-img {
+        height: inherit;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .sidebar{
+        display: none !important;
+    }
+    .navbar{
+        padding-left: 0;
+        justify-content: center;
+    }
+    .sidebar2{
+        left: 0;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        height: fit-content;
+        width: 100%;
+        background: #fff;
+        border-top :1px solid #000000;
+        display: block !important;
+    }
+    .social-btn{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .container-right{
+        float: none;
+        overflow: hidden;
+        width: auto;
+        height: auto;
+    }
+    .coder-sumup{
+        display: block;
+
+    }
+    .coder-sumup-description{
+        display: block;
+        width: 100%;
+        margin-top: 3rem;
+        height: fit-content;
+        border-bottom: none;
+        
+    }
+    .covers-row{
+        display: block !important;
+        margin-top: 3rem;
+        padding-bottom: 100px;
+    }
+    .coder-name-title{
+        position: relative;
+       text-align: center;
+
+    }
+    .coder-name{
+        width: 100%;
+        margin: 0 !important;
+        padding: 0;
+        position: static;
+    }
+    .work-container{
+        margin-top: 200px;
+    }
+    .profile-picture {
+        padding-top: 3rem;
+        height: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+div.coder-name > p {
+    font-family: "Champagne & Limousines";
+    font-size: 2rem;
+}
+
+div.coder-name > p > a {
+    color: black;
+    font-weight: bolder;
+}
